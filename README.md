@@ -1,5 +1,5 @@
 # PistolGripCamera
-Building a Raspberry Pi HQ camera module into a pistol grip chassis
+Building a Raspberry Pi HQ camera module into a pistol grip chassis. It's really hacked-together as a learning exercise for OpenSCAD, so it's by no means perfect.
 
 The pistol grip screw cap uses the necks and caps library by Xavan, under a CC BY 4.0 licence, from https://www.thingiverse.com/thing:1654620
 
