@@ -8,3 +8,5 @@ camera.scad is the master file.
 At its centre is a triangular chassis, on the front of which fits the camera module with four M2.3x8mm self-tapping screws. The sloping top is designed to mount a Raspberry Pi in a case using Velcro strips. On the sides and bottom are slide mounts for handles or other fixings, these can be found in slide-locating.scad. These mounts work, but still need some tolerance tweaking to be perfect.
 
 There is an oversized pistol grip handle designed to take two 18650 cells in holders, it has a screw cap on the bottom. 
+
+Latest updates: much improves locator shoe and foot for pistol grip. Much stronger than the original.
