@@ -58,9 +58,9 @@ module pistolGripHandle(){
     }
     
     //close off the end
-    translate([0,0,60.5]) rotate([0,-15,0]){
+    translate([-1,0,63]) rotate([0,-15,0]){
         difference(){ 
-            cylinder(2.5,25,25,true);
+            cylinder(7.5,25.45,25.4,true);
             //Sides of grip
             translate ([0,-25,0]){
                 cube([50,12.5,15],true);
@@ -69,12 +69,14 @@ module pistolGripHandle(){
                 cube([50,12.5,15],true);
             }            
             //Make cable access
-            cube([50,12.5,15],true);
+            cube([60,12.5,15],true);
+            //carve out shoe outline
+        translate([20,20,-1.25]) rotate([0,0,180]) linear_extrude(height=5) polygon(points=[[5,2.5],[-20,2.5],[-20,37.5],[5,37.5],[35,32.5],[35,7.5]]);
         }
     }
     
     //place the shoe
-    translate([20,20,67]) rotate([0,15,180])locatingShoe();
+    translate([-2.5,0,63.9]) rotate([0,15,180])locatingShoe();
     
     //Place the screw thread for the cap at the base
     translate([0,0,-70]) rotate([180,0,0]) N38mm3start ();
